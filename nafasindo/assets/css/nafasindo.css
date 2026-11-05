@@ -1,0 +1,58 @@
+/* Penyesuaian khusus PT Nafasindo (dimuat setelah main.css) */
+.header .logo .logo-icon { font-size: 30px; color: var(--accent-color); margin-right: 8px; line-height: 1; }
+.header .logo .sitename { font-family: var(--heading-font); font-size: 26px; font-weight: 700; color: var(--heading-color); }
+.header .logo .sitename small { display:block; font-family: var(--default-font); font-size: 10px; letter-spacing: 2px; font-weight: 600; color: var(--accent-color); margin-top: 2px; }
+
+.hero .carousel-item img { object-fit: cover; }
+.hero .carousel-container .btn-hero {
+  display: inline-block; margin-top: 18px; padding: 12px 30px; border-radius: 50px;
+  background: var(--accent-color); color: #fff; font-weight: 600; transition: .3s;
+}
+.hero .carousel-container .btn-hero:hover { background: #fff; color: var(--accent-color); }
+
+.nf-card {
+  background: var(--surface-color); border-radius: 10px; padding: 32px 26px; height: 100%;
+  box-shadow: 0 6px 24px rgba(0,0,0,.07); border-bottom: 4px solid transparent; transition: .3s;
+}
+.nf-card:hover { transform: translateY(-6px); border-bottom-color: var(--accent-color); }
+.nf-card .nf-icon {
+  width: 64px; height: 64px; border-radius: 50%; display:flex; align-items:center; justify-content:center;
+  background: color-mix(in srgb, var(--accent-color), transparent 88%); color: var(--accent-color);
+  font-size: 30px; margin-bottom: 18px;
+}
+.nf-card h3 { font-size: 20px; margin-bottom: 10px; }
+.nf-card p { margin: 0; color: color-mix(in srgb, var(--default-color), transparent 25%); }
+
+.nf-photo { width: 100%; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,.18); object-fit: cover; }
+
+.nf-step { text-align: center; padding: 10px 14px; position: relative; }
+.nf-step .num {
+  width: 56px; height: 56px; border-radius: 50%; background: var(--accent-color); color: #fff;
+  display:inline-flex; align-items:center; justify-content:center; font-family: var(--heading-font); font-size: 22px; margin-bottom: 14px;
+}
+.nf-step h4 { font-size: 18px; margin-bottom: 6px; }
+.nf-step p { font-size: 14px; margin: 0; color: color-mix(in srgb, var(--default-color), transparent 30%); }
+
+.nf-values .nf-card { text-align: center; }
+.nf-values .nf-icon { margin-left: auto; margin-right: auto; }
+
+.nf-band { padding: 70px 0; background: var(--accent-color); color: #fff; }
+.nf-band h2 { color: #fff; font-size: 32px; }
+.nf-band .btn-band { display:inline-block; padding: 12px 32px; border-radius: 50px; background:#fff; color: var(--accent-color); font-weight:700; transition:.3s; }
+.nf-band .btn-band:hover { background: #0b4a22; color:#fff; }
+
+.nf-row { margin-bottom: 70px; }
+.nf-row:last-child { margin-bottom: 0; }
+.nf-row h2 { font-size: 30px; margin-bottom: 16px; }
+.nf-tag { display:inline-block; font-size: 12px; letter-spacing: 2px; font-weight: 700; color: var(--accent-color); text-transform: uppercase; margin-bottom: 8px; }
+
+.page-title { background-position: center; background-size: cover; }
+
+/* Daftar centang yang bisa dipakai di semua halaman */
+.list-check { margin-bottom: 24px; }
+.list-check li { display: block; padding-left: 30px; position: relative; margin-bottom: 8px; }
+.list-check li:before {
+  content: "\f26e"; font-family: "bootstrap-icons" !important; position: absolute; left: 0; top: 0.1rem;
+  line-height: 1; color: var(--accent-color); font-size: 18px;
+}
+.dark-background .list-check li:before { color: #8be0a9; }
