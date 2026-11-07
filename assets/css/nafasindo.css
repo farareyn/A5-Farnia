@@ -1,4 +1,4 @@
-/* Penyesuaian khusus PT Nafasindo (dimuat setelah main.css) */
+
 .header .logo .logo-icon { font-size: 30px; color: var(--accent-color); margin-right: 8px; line-height: 1; }
 .header .logo .sitename { font-family: var(--heading-font); font-size: 26px; font-weight: 700; color: var(--heading-color); }
 .header .logo .sitename small { display:block; font-family: var(--default-font); font-size: 10px; letter-spacing: 2px; font-weight: 600; color: var(--accent-color); margin-top: 2px; }
@@ -48,7 +48,7 @@
 
 .page-title { background-position: center; background-size: cover; }
 
-/* Daftar centang yang bisa dipakai di semua halaman */
+
 .list-check { margin-bottom: 24px; }
 .list-check li { display: block; padding-left: 30px; position: relative; margin-bottom: 8px; }
 .list-check li:before {
@@ -56,3 +56,6 @@
   line-height: 1; color: var(--accent-color); font-size: 18px;
 }
 .dark-background .list-check li:before { color: #8be0a9; }
+.text-justify {
+  text-align: justify;
+}
